@@ -39,11 +39,7 @@
 			}
 
 			public function setAge($val)
-			{			public function __destruct()
 			{
-				echo "__destruct for dog was called". "<br />";
-				parent::__destruct();get_class_vars(__CLASS__)
-			
 				$this->age=$val;
 			}
 
@@ -82,11 +78,7 @@
 				echo '<pre>'.print_r( $this->getAllProperties(), 1 ).'</pre>';	
 			}
 			
-			public function recursiveMultiplyByHalf($			public function __destruct()
-			{
-				echo "__destruct for dog was called". "<br />";
-				parent::__destruct();
-			num)
+			public function recursiveMultiplyByHalf($num)
 			{
 				if( $num <= 1 )
 				{
